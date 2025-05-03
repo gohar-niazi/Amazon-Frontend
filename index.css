@@ -214,3 +214,88 @@ ul a {
   font-size: 0.7rem;
   text-align: center;
 }
+@media only screen and (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 10px;
+    justify-content: space-between;
+  }
+
+  .nav-logo,
+  .address-border,
+  .nav-search,
+  .nav-sginin,
+  .nav-return,
+  .nav-cart {
+    margin: 5px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-search {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .panel {
+    flex-direction: column;
+    height: auto;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .panel-option {
+    width: 100%;
+    font-size: 0.75rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .shop-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box {
+    width: 90%;
+    margin: 10px 0;
+  }
+
+  .panel2 {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .panel2 ul {
+    margin: 20px 0;
+  }
+
+  .panel3,
+  .panel4 {
+    text-align: center;
+  }
+
+  .panel3 {
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .panel4 {
+    padding: 10px 0;
+    height: auto;
+  }
+
+  .logo-panel {
+    margin: auto;
+  }
+
+  .pages,
+  .copyright {
+    padding: 5px;
+  }
+}
