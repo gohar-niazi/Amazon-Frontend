@@ -29,11 +29,6 @@ The clone is structured to mimic the core UI of Amazon's landing page — includ
 </p>
 
 ---
-
-## 📸 Preview
-
-> *(Insert a screenshot of your homepage UI — especially the hero section or header)*
-
 ---
 
 ## 🚀 Getting Started
